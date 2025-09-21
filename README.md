@@ -1,7 +1,7 @@
-# Experiment 13: Constructor Overloading in C++
+# Experiment 13: COnstructor, Function and Operator Overloading in C++
 
 ## Aim  
-To study and implement constructor overloading in C++.
+To study and implement Constructor, Operator and Function overloading in C++.
 
 ## Tools Used  
 VS Code
@@ -10,7 +10,7 @@ VS Code
 
 ## Theory  
 
-### Function Overloading
+## Function Overloading
 - Function Overloading allows **multiple functions with the same name** in a class or scope
   but with **different parameter lists** (number, type, or order).
 - It is a type of **compile-time polymorphism** because the compiler decides which function to call based on the arguments.
@@ -19,13 +19,13 @@ VS Code
   - Avoids creating multiple function names for similar tasks
   - Simplifies code maintenance and extension
 
-#### Syntax Concept:
+### Syntax Concept:
 - Functions must share the same name but differ in:
   1. Number of parameters
   2. Type of parameters
   3. Order of parameters
 
-#### Types:
+### Types:
 1. By Number of Parameters:
    - Functions differ in how many parameters they take.
 2. By Type of Parameters:
@@ -34,7 +34,7 @@ VS Code
    - Functions differ in the sequence/order of parameters.
 
 --- 
-### Operation Overloading
+## Operation Overloading
 - Operator Overloading allows **defining new behavior for operators** (+, -, *, /, <<, >>) 
   when applied to **user-defined classes or objects**.
 - Enables objects to behave like **built-in types**.
@@ -44,7 +44,7 @@ VS Code
   - Simplifies object manipulation
   - Reduces need for verbose function calls
 
-#### Types:
+### Types:
 1. Unary Operator Overloading:
    - Operates on a single operand
    - Examples: ++, --, -, !
@@ -57,7 +57,7 @@ VS Code
 
 --- 
 
-### What is Constructor Overloading?  
+## What is Constructor Overloading?  
 Constructor overloading in C++ is a concept where a class can have multiple constructors with different parameter lists.  
 This allows creating objects in different ways, depending on how many arguments (and of what type) are passed while creating the object.  
 
@@ -72,7 +72,7 @@ Example:
 
 ---
 
-### Difference Between Types of Constructors and Constructor Overloading  
+## Difference Between Types of Constructors and Constructor Overloading  
 
 - **Types of Constructors**:  
   - Default Constructor  
