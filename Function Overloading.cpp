@@ -47,6 +47,8 @@ int main(){
 
 /*
 Sample Output: 
+Shoes 3 500
+
 🛒 CART VIEW
 Product Name : Shoes
 Quantity : 3
